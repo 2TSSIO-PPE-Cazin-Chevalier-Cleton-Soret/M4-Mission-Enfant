@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GestionActivitePlanificateur"
   ],
-  "SelectedNode": "\\GestionActivitePlanificateur.sln",
+  "SelectedNode": "\\GestionActivitePlanificateur\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

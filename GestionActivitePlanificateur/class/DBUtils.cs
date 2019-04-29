@@ -11,7 +11,7 @@ namespace Tutorial.SqlConn
     {
         public static MySqlConnection GetDBConnection()
         {
-            string host = "localhost";
+            string host = "172.29.102.22";
             int port = 3306;
             string database = "ram";
             string username = "root";
