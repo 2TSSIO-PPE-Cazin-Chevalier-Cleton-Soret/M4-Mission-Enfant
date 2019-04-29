@@ -36,7 +36,7 @@ namespace GestionActivitePlanificateur
         private void Form1_Load(object sender, EventArgs e)
         {
             dataGridViewListeEnfant.Rows.Clear();
-            MySqlConnection conn = DBMySQLUtils.GetDBConnection("172.29.102.22", 3306, "ram", "root","root");
+            MySqlConnection conn = DBMySQLUtils.GetDBConnection("172.29.102.22", , "ram", "root","root");
             DataTable dt = new DataTable();
             conn.Open();
 
