@@ -36,7 +36,7 @@ namespace GestionActivitePlanificateur
         private void Form1_Load(object sender, EventArgs e)
         {
             dataGridViewListeEnfant.Rows.Clear();
-            MySqlConnection conn = DBMySQLUtils.GetDBConnection("172.29.102.22", 3306, "ram", "root","root");
+            MySqlConnection conn = DBMySQLUtils.GetDBConnection("localhost", 3306, "ram", "root","root");
             DataTable dt = new DataTable();
             conn.Open();
 
@@ -72,7 +72,7 @@ namespace GestionActivitePlanificateur
         private void add(String prenom, String nom, String telephone, String status, String informations, DateTime dateInscription, DateTime dateFinInscription)
         {
             //SQL STMT
-            MySqlConnection conn = DBMySQLUtils.GetDBConnection("172.29.102.22", "ram", "root", "root");
+            MySqlConnection conn = DBMySQLUtils.GetDBConnection("localhost", "ram", "root", "root");
             conn.Open();
             String sql = "CALL `creer_Enfant`(@prenom , @nom, @telephone, @status, @informations, @dateInscription, @dateFinInscription );";
             MySqlCommand cmd = new MySqlCommand(sql, conn);
@@ -108,7 +108,7 @@ namespace GestionActivitePlanificateur
         {
             int id = pId;
             //SQL STMT
-            MySqlConnection conn = DBMySQLUtils.GetDBConnection("172.29.102.22", "ram", "root", "root");
+            MySqlConnection conn = DBMySQLUtils.GetDBConnection("localhost", "ram", "root", "root");
             conn.Open();
             Console.WriteLine("ok2");
             String sql = "CALL `supprimer_Enfant`(@id);";
@@ -140,7 +140,7 @@ namespace GestionActivitePlanificateur
             try
             {
                 MySqlConnection conn = null;
-                conn = DBMySQLUtils.GetDBConnection("172.29.102.22", "ram", "root", "root");
+                conn = DBMySQLUtils.GetDBConnection("localhost", "ram", "root", "root");
                 conn.Open();
                 String recupEnfant = null;
                 recupEnfant = "CALL `recup_Enfant`();";
@@ -191,7 +191,7 @@ namespace GestionActivitePlanificateur
         private void dateTimePickerJourConcerne_ValueChanged(object sender, EventArgs e)
         {
             dataGridViewListeEnfant.Rows.Clear();
-            MySqlConnection conn = DBMySQLUtils.GetDBConnection("172.29.102.22", 3306, "ram", "root", "root");
+            MySqlConnection conn = DBMySQLUtils.GetDBConnection("localhost", 3306, "ram", "root", "root");
             DataTable dt = new DataTable();
             conn.Open();
             DateTime pDate = dateTimePickerJourConcerne.Value;
@@ -202,7 +202,7 @@ namespace GestionActivitePlanificateur
         {
             try
             {
-                MySqlConnection conn = DBMySQLUtils.GetDBConnection("172.29.102.22", "ram", "root", "root");
+                MySqlConnection conn = DBMySQLUtils.GetDBConnection("localhost", "ram", "root", "root");
                 conn.Open();
                // DateTime date = DateTime.ParseExact(pDate.ToString(), "MM/dd/yyyy hh:mm:ss", CultureInfo.InvariantCulture);
                 String americanFormat = pDate.Date.ToString("yyyy-MM-dd");
@@ -285,7 +285,7 @@ namespace GestionActivitePlanificateur
         }
         private void update(int id, String prenom, String nom, String telephone, String status, String informations, DateTime dateInscription, DateTime dateFinInscription)
         {
-            MySqlConnection conn = DBMySQLUtils.GetDBConnection("172.29.102.22", 3306, "ram", "root", "root");
+            MySqlConnection conn = DBMySQLUtils.GetDBConnection("localhost", 3306, "ram", "root", "root");
             DataTable dt = new DataTable();
             conn.Open();
             //SQL STMT
