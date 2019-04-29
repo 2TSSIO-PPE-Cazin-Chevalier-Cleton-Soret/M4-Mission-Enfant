@@ -1,0 +1,12 @@
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\bin\Debug\GestionActivitePlanificateur.exe.config
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\bin\Debug\GestionActivitePlanificateur.exe
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\bin\Debug\GestionActivitePlanificateur.pdb
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\obj\Debug\GestionActivitePlanificateur.Form1.resources
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\obj\Debug\GestionActivitePlanificateur.Properties.Resources.resources
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\obj\Debug\GestionActivitePlanificateur.csproj.GenerateResource.cache
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\obj\Debug\GestionActivitePlanificateur.csproj.CoreCompileInputs.cache
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\obj\Debug\GestionActivitePlanificateur.exe
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\obj\Debug\GestionActivitePlanificateur.pdb
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\obj\Debug\GestionActivitePlanificateur.csprojResolveAssemblyReference.cache
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\bin\Debug\MySql.Data.dll
+D:\Users\theoc\source\repos\GestionActivitePlanificateur\GestionActivitePlanificateur\obj\Debug\GestionActivitePlanificateur.csproj.CopyComplete
